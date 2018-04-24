@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+  <link href="jumbotron-narrow.css" rel="stylesheet">
+  <title>CSS Sandbox</title>
+  <style media="screen">
+
+    .jumbotron{
+      padding-right: 60px;
+      padding-left: 60px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      border-radius: 5px;
+    }
+    #container1{
+      animation-duration: 1s;
+      border-radius: 5px;
+    }
+    #section1{
+      animation-delay: .2s;
+      animation-duration: 1s;
+      background-color: rgba(0, 0, 0, .05);
+      border-radius: 5px;
+
+    }
+    #section2{
+      animation-delay: .4s;
+      animation-duration: 1s;
+      background-color: rgba(0, 0, 0, .05);
+      border-radius: 5px;
+    }
+    .flex-rectangle {
+      width: 100%;
+      height: 5%
+      background-color: rgba(0, 0, 0, 0.2);
+      border-radius: 0px;
+    }
+    .flex-rectangle:before{
+      content: "";
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="flex-rectangle text-center animated fadeInDown jumbotron">
+    <h3>This is where menu items normally go.</h3>
+  </div>
+  <div class="container jumbotron text-center animated fadeInDown">
+    <header id="container1" class="animated fadeInDown text-center bg-primary text-white p-5">
+      <h1 class="display-4">CSS Sandbox</h1>
+    </header>
+    <section id="section1" class="animated fadeInDown bg-faded p-5 my-5">
+      <h1>Section One</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </section>
+
+    <section id="section2" class="animated fadeInDown bg-faded">
+      <h1>Section Two</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </section>
+
+  </div>
+</body>
+</html>
