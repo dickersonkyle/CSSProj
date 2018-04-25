@@ -11,7 +11,9 @@ This is my very first take at a completely custom website cover and site theme u
 ### Goals
 
 ------------
-- Functional, scrolling navigation bar.
+- Functional, scrolling navigation bar. 
+  -[4-24-18: It scrolls with the page. Just need to implement the different pages.]
+  -[4-25-18: Transparent background.
 - Cover 'button' functionality.
 - Custom page transitions using Animate.css.
 - Functioning media gallery.
