@@ -6,7 +6,7 @@
 
 ------------
 
-This is my very first take at a completely custom website cover using HTML & CSS primarily. This is also my very first time attempting to seriously learn web development. I have a few goals in mind that I hope to achieve by the end of this. This is a website best used by any type of artist who wants to showcase their work.
+This is my very first take at a completely custom website cover and site theme using HTML & CSS primarily. This is also my very first time attempting to seriously learn web development. I have a few goals in mind that I hope to achieve by the end of this. This is a website best used by any type of artist who wants to showcase their work.
 
 ### Goals
 
